@@ -1,0 +1,51 @@
+
+.header{
+    background-color: forestgreen;
+    width: 100vw;
+    height: 30vw;
+    position: relative;
+    text-align: center;
+}
+h2{
+    position: relative;
+    width: 300px;
+    left: 300px;
+    color: bisque;
+    text-align: center;
+    background-color: #333;
+    line-height: 5;
+    border: 0.5em  solid #eee;
+    border-width: 0.5em 0;
+    letter-spacing: 0.08em;
+    mix-blend-mode: hard-light;
+    perspective: 400px;
+    animation: position 1.5s ease ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes position{
+    0%  {top:-2000px; } 
+    100%{top: 100px  
+        
+    } 
+    
+}
+
+
+/* }
+@keyframes transform{
+    0%{
+        transform: translate(0px) ;
+    }
+    25%{
+        transform: rotateZ(15deg); background-color: rgba(255, 38, 0, 0.678);
+    }
+    75%{
+        transform: translate(1500px);
+    }
+    100%{
+        transform: rotate(-180deg);  background-color: rgb(30, 139, 202);
+    }
+    
+}
+ */

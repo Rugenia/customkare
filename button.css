@@ -1,3 +1,10 @@
+@font-face{
+    font-family: 'crafty';
+    src: url('./fonts-master/apache/craftygirls/CraftyGirls-Regular.ttf')
+    
+}
+
+
 .button{
     padding: 0.8em;
     border: 0;
@@ -14,4 +21,10 @@
     background-color: #456ab5;
     transform: translateY(0.1em);
     box-shadow: 0 0.3em #148;
+}
+p{
+    font-family: 'crafty';
+    position: sticky;
+    
+    right: 2em;
 }
