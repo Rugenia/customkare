@@ -26,15 +26,29 @@
 
 /* --------------- the form--
 -------------------------- */
-.the{
+/* .the{
     display: inline-block;
 }
 .the:hover .modal{
     display: block;
+} */
+
+.info{
+    transform: translateY(-1000px);
+    animation: modal 1.5s ease-in 1;    
+    animation-fill-mode: forwards;
+    
 }
-.modal{
-    display: none;
-}
+ @keyframes modal{
+    0%{
+        transform: translateY(-1000px)
+    }
+    100%{
+        transform: translateY(0)
+    }
+} 
+
+
 .form-container{
     background-color: rgb(0, 0, 0, 0.5);
     position: fixed;
@@ -69,11 +83,11 @@
     border: 1px solid brown;
     background-color: #fff;
 }
-p{
+/* p{
     position: sticky;
     top: 1em;
     
     font-family: 'crafty';
     font-style: bold;
     font-size: 2em;
-}
+} */

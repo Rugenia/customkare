@@ -1,4 +1,4 @@
-div{
+/* div{
     margin: 5em auto;
     width: 200px;
     height: 200px;
@@ -13,4 +13,32 @@ div{
     100%{
         transform: scale(1); background-color: #45e5;
     }
+} */
+.lol{
+    background-color: aqua;
+    position: relative;
+    left: 50%;
+    top: 500px;
+   
 }
+p{
+    background-color: #000000;
+    color: beige;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    top: 500px;
+    perspective: 400px;
+    transform: rotateY(30deg);
+    
+    animation: lol 2s linear 1;
+    animation-fill-mode: forwards;
+}
+/* @keyframes lol{
+    0%{
+        transform: translate(0, -400px);
+    }
+    100%{
+        transform: translate(0, 400px);
+    }
+} */
