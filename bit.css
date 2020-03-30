@@ -1,0 +1,49 @@
+/* -------DOM stylig
+-------------------- */
+
+html{
+    box-sizing: border-box;
+    font-size: calc(1rem + 1vw)
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body{
+    box-sizing: border-box;
+}
+/* -------contents
+------------- */
+.main-container{
+    padding: 1em;
+    margin: 1em;
+    background-color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 1px 1px 3px 1px #333;
+}
+.container{
+    padding-left: 10px;
+    margin: 3px;
+}
+
+/*-- Breakpoints------
+--------------- */
+@media (max-width:580px){
+.contain{
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+}
+@media (min-width: 580px){
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .contain{
+        border-left: 1px solid #333;
+        border-right: 1px solid #333;
+        padding: 0 5px 
+    }
+}
