@@ -92,11 +92,13 @@ li > a{
 } */
 
 /* section */
-
+main{
+    margin: 5px;
+}
 section{
     background-color: #eee;
     mix-blend-mode: hard-light;
-    margin: 10px
+    
     
 
 }

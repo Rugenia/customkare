@@ -19,26 +19,26 @@ h2{
     letter-spacing: 0.08em;
     mix-blend-mode: hard-light;
     perspective: 400px;
-    animation: position 1.5s ease ;
-    animation-fill-mode: forwards;
+    animation: position 2s linear ;
+    
 }
 
-@keyframes position{
+/* @keyframes position{
     0%  {top:-2000px; } 
     100%{top: 100px  
         
     } 
     
-}
+} */
 
 
-/* }
-@keyframes transform{
+
+@keyframes position{
     0%{
         transform: translate(0px) ;
     }
     25%{
-        transform: rotateZ(15deg); background-color: rgba(255, 38, 0, 0.678);
+        transform: rotate(15deg); background-color: rgba(255, 38, 0, 0.678);
     }
     75%{
         transform: translate(1500px);
@@ -48,4 +48,4 @@ h2{
     }
     
 }
- */
+
